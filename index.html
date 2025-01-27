@@ -1,17 +1,34 @@
+<!-- O DOCTYPE é uma tag para falar mostrar para o navegador sobre a versão do HTML que está sendo utilizada-->
 <!DOCTYPE html>
 
+<!-- A tag html serve para mostrar para o navegador que tudo que está dentro dela fará parte do html do site, ou seja, da parte visual-->
 <html>
+
+    <!-- A tag head serve para colocar metadados, ou seja, dados que serão utilizados pelo navegador e que não serão mostrados no site-->
     <head>
+
+        <!-- A tag title serve para alterar o nome da guia do nosso site-->
         <title> Wicked </title>
+
+        <!-- A tag meta serve para adicionar informações que aparecem após alguém pesquisar o nosso site-->
         <meta name="description" content=
         "Site sobre o filme 'Wicked' inspirado no 
         musical de sucesso!">
     </head>
 
+    <!-- A tag body serve para estruturarmos todo o nosso site, ou seja, toda a parte visível será colocada nela-->
     <body>
+
+        <!-- A tag header serve para fazer o cabeçalho da nossa página, neste caso, fazemos o menu de navegação-->
         <header>
+
+            <!-- A tag nav serve para ser uma parte específica da nossa página que de algum modo conterá algum tipo de navegação.
+              Neste caso, fazemos as navegações através de listas -->
             <nav>
+
+                <!-- A tag ul serve para criar uma lista não-ordenada, ou seja, não será numerada-->
                 <ul>
+                    <!-- A tag li serve para adicionar itens na nossa lista, ou seja, estará tudo abaixo da outra-->
                     <li><a href="historia.html"> HISTÓRIA </a></li>
                     <li><a href="elenco.html"> ELENCO </a></li>
                     <li><a href="playlist.html"> PLAYLIST </a></li>
@@ -19,21 +36,40 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section>
-                <p> "Everyone deserves the chance to fly" </p>
-                <h1> Wicked </h1>
 
-                <!-- história -->
+        <!-- A tag main será onde ficará toda a parte principal do nosso site, ou seja, todo o conteúdo que não faz 
+         parte do cabeçalho e nem do rodapé-->
+        <main>
+
+            <!-- A tag section serve para delimitar um espaço da nossa página. Neste caso, estaremos criando um espaço 
+             para o título da página e para a frase de efeito -->
+            <section>
+
+                <!-- A tag p serve para adicionar páragrafos em nosso arquivo -->
+                <p> "Everyone deserves the chance to fly" </p>
+
+                <!-- A tag h1 serve para criar o título principal da nossa página (lembre da boa prática de utilizar
+                apenas uma tag h1 por página)-->
+                <h1> Wicked </h1>
+            </section>
+
+                <!-- História -->
+                <!--A tag div funciona como uma section, apenas com nome meio diferente :)-->
                 <div>
+
+                    <!-- A tag h2 serve para adicionar subtítulo na nossa página-->
                     <h2> O passado </h2>
                     <p> Descubra mais sobre a história 
                         não contada  das bruxas de Oz:
                     </p>
+
+                    <!-- A tag a serve para linkar algo, ou seja, ela funciona como um botão em que, ao clicar, 
+                    será redirecionado para outro arquivo.html, para uma página em que foi copiado e colado
+                    o link ou então para direcionar em partes específicas do nosso site -->
                     <a href="historia.html"> SAIBA MAIS </a>
                 </div>
 
-                <!-- elenco -->
+                <!-- Elenco -->
                 <div>
                     <h2> Dos contos para as telas </h2>
                     <p> Conheça o fantástico elenco que 
@@ -42,7 +78,7 @@
                     <a href="elenco.html"> CONFIRA AQUI </a>
                 </div>
 
-                <!-- playlist -->
+                <!-- Playlist -->
                 <div> 
                     <h2> Escute a playlist </h2>
                     <p> Ouça as famosas músicas que tocaram 
@@ -60,14 +96,14 @@
                     <a href="quiz.html"> DESCUBRA AQUI </a>
                 </div>
 
-                <!-- filme nos streamings -->
+                <!-- Filme nos streamings -->
                 <div>
                     <h2> Assista ao filme </h2>
                     <p> Confira agora mesmo o filme que está 
                         disponível nas plataformas de streaming!
                     </p>
                     <a href="https://www.primevideo.com/-/pt/detail/Wicked/0G8K9BERGK3YSTRI7IGV55HRM9">
-                         PRIME VIDEO </a> <br>
+                        PRIME VIDEO </a> <br>
                     <a href="https://tv.apple.com/br/movie/wicked/umc.cmc.2y47u72bw6uhh0g4zpgxkvatk">
                         APPLE TV+
                     </a>
@@ -84,10 +120,13 @@
                         COMPRE AQUI O SEU INGRESSO
                     </a>
                 </div>
-
-            </section>
         </main>
+
+        <!-- A tag footer serve para adicionar um rodapé na nossa página, ou seja, todas as pequenas coisas que estarão 
+         disponíveis ao final da nossa página-->
         <footer>
+
+            <!-- A tag small é uma tag de parágrafo, porém, como o nome sugere, o tamanho do texto é menor-->
             <small> &copy; 2025 Universal Studios. Todos os direitos reservados. </small>
         </footer>
     </body>
