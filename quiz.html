@@ -25,18 +25,39 @@
             </section>
 
             <!-- Pergunta 1 -->
+            <!-- Cada section criada será uma pergunta diferente-->
             <section>
                 <h2> Como você costuma enfrentar desafios ? </h2>
+
+                <!-- A tag form serve como um container para todas as entradas de dados que vamos receber-->
                 <form>
                     <!-- Primeira opção-->
-                    <input type="radio" id="p1a" >
-                        <label for="p1a"> A) Enfrento de frente...</label> <br>
+                     <!-- 
+                        A tag input serve criar uma forma de entrada de dado.
+                        Podemos ter diversos tipos de entrada de dados, no caso abaixo, usamos o tipo "radio".
 
-                    <input type="radio" id="p1b">
-                        <label for="p1b"> B) Procuro soluções... </label> <br>
+                        Usamos o atributo "id" para linkar essa opção para um conteúdo visível para o usuário. Ou seja,
+                        esse id é o mesmo utilizado com a tag label. Observe que a tag input é uma tag autocontida.
 
-                    <input type="radio" id="p1c">
-                        <label for="p1c"> C) Uso uma combinação... </label>
+                        Utilizamos o atributo name="" para identificar entradas diferentes do noss input.
+
+                        O atributo value="" define o valor associado com o input.
+                    -->
+                    <input type="radio" id="p1a" value="opcao1" id="p1a" name="pergunta1">
+
+                        <!-- 
+                            A tag label é utilizada para tornar vísivel a opção que um determinado input será. 
+                            Por exemplo, tornamos visível a opção que corresponde aquela determinada entrada de dado
+                        -->
+                        <label for="p1a"> A) Enfrento de frente, mesmo que pareça difícil ou impopular.</label> <br>
+
+                    <!-- Segunda opção-->
+                    <input type="radio" id="p1b" value="opcao2" id="p1b" name="pergunta1">
+                        <label for="p1b"> B) Procuro soluções criativas e trabalho em equipe para superar os obstáculos.</label> <br>
+
+                    <!-- Terceira opção -->
+                    <input type="radio" id="p1c" value="opcao3" id="p1c" name="pergunta1">
+                        <label for="p1c"> C) Uso uma combinação de determinação e colaboração, adaptando-me conforme necessário. </label>
                 </form>
             </section>
         </main>
