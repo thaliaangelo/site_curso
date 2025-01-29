@@ -7,26 +7,25 @@
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="historia.html"> HISTÓRIA </a></li>
-                    <li><a href="elenco.html"> ELENCO </a></li>
-                    <li><a href="playlist.html"> PLAYLIST </a></li>
-                    <li><a href="quiz.html"> QUIZ </a></li>
-                </ul>
-            </nav>
+            <a href="index.html"><img src="assets/wicked-logo.png" alt="Logo do header"></a>
+                <nav>
+                    <a href="historia.html"> HISTÓRIA </a>
+                    <a href="elenco.html"> ELENCO </a>
+                    <a href="playlist.html"> PLAYLIST </a>
+                    <a href="quiz.html"> QUIZ </a>
+                </nav>
         </header>
-        <main>
+        <main class="main-container">
             <!-- Pequena descrição do nosso quiz-->
             <section>
-                <p> "Because I knew you, I have been changed for good." </p>
+                <p id="frase-de-efeito"> "Because I knew you, I have been changed for good." </p>
                 <h1> Elphaba ou Glinda ? (Quiz) </h1>
                 <p> Faça o quiz e descubra qual bruxa do fantástico mundo de Oz você seria! </p>
             </section>
 
             <!-- Pergunta 1 -->
             <!-- Cada section criada será uma pergunta diferente-->
-            <section>
+            <section class="main-block">
                 <h2> Como você costuma enfrentar desafios ? </h2>
 
                 <!-- A tag form serve como um container para todas as entradas de dados que vamos receber-->
@@ -60,6 +59,7 @@
                         <label for="p1c"> C) Uso uma combinação de determinação e colaboração, adaptando-me conforme necessário. </label>
                 </form>
             </section>
+            <p id="topo"><a href="#">Voe de volta ao topo!</a></p>
         </main>
         <footer></footer>
     </body>

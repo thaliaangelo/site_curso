@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    font-family: "Cabin", serif;
+    color: #0d0d0d;
+    background-color: #f2e0c9;
+    font-weight: 400;
+}
+
+header {
+    background: linear-gradient(to right, #a67683, #40592e);
+    /* Amanha */
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    /* Amanha */
+}
+
+nav {
+    /* Amanha */
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #f2e0c9;
+    font-weight: bold;
+    font-size: 1rem;
+    /* Amanha */
+}
+
+/* Amanha */
+
+main {
+    text-align: center;
+    /* Amanha */
+}
+
+#frase-de-efeito {
+    color: #8c3746;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 8px #6f1c5c94;
+}
+
+h1 {
+    color: #40592e;
+    font-size: 2rem;
+    /*Amanha*/
+}
