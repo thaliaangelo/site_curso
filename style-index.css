@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Cabin", serif;
     color: #0d0d0d;
@@ -9,33 +15,46 @@ body {
 
 header {
     background: linear-gradient(to right, #a67683, #40592e);
-    /* Amanha */
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 header img {
     width: 150px;
     height: auto;
-    /* Amanha */
+    margin-bottom: 20px;
 }
 
 nav {
-    /* Amanha */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
 nav a {
+    margin: 0 20px;
     text-decoration: none;
     color: #f2e0c9;
     font-weight: bold;
     font-size: 1rem;
-    /* Amanha */
+    border: none;
+    border-radius: 10px;
+    position: relative;
 }
 
-/* Amanha */
+nav a:hover {
+    color: #ffd700;
+}
 
 main {
     text-align: center;
-    /* Amanha */
+    padding: 20px;
 }
 
 #frase-de-efeito {
@@ -49,5 +68,71 @@ main {
 h1 {
     color: #40592e;
     font-size: 2rem;
-    /*Amanha*/
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.main-container h2 {
+    color: #8c3746;
+}
+
+.main-container p {
+    color: #0d0d0d;
+    padding: 5px;
+    font-weight: 450;
+}
+
+.main-block {
+    background-color: #ebd2aa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-block a {
+    color: #f2e0c9;
+    background-color: #40592e;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 15px;
+    max-width: 150px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.main-block a:hover {
+    color: #0d0d0d;
+    background-color: #ffd700;
+}
+
+#topo {
+    padding-top: 20px;
+}
+
+#topo a {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+#topo a:hover {
+    color: #40592e;
+}
+
+footer {
+    background-color: #2f4023;
+    color: #f2e0c9;
+    text-align: center;
+    padding: 20px 0;
 }
